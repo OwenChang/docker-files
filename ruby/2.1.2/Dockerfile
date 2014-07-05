@@ -1,4 +1,5 @@
 FROM ubuntu:14.04
+MAINTAINER Brandon Rice <brice84@gmail.com>
 
 RUN apt-get update && apt-get -y upgrade
 RUN apt-get -y install wget gcc make libssl-dev libreadline-dev zlibc 
